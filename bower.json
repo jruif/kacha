@@ -1,0 +1,26 @@
+{
+  "name": "kacha",
+  "version": "0.0.1",
+  "authors": [
+    "jruif"
+  ],
+  "description": "kacha,jruif,share,friend,freedom",
+  "keywords": [
+    "kacha"
+  ],
+  "license": "MIT",
+  "homepage": "jruif.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.1",
+    "knockout": "~3.2.0",
+    "underscore": "~1.7.0",
+    "requirejs": "~2.1.15"
+  }
+}
