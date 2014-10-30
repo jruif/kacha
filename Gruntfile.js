@@ -28,7 +28,7 @@ module.exports = function (grunt) {
     // Default task.
     grunt.registerTask('default', ['less:build', 'cssmin:minify','watch']);
 
-    grunt.registerTask('less', ['less:build', 'cssmin:minify']);
+    grunt.registerTask('only-less', ['less:build', 'cssmin:minify']);
 
-    grunt.registerTask('js', ['concat:build', 'uglify:minify']);
+    grunt.registerTask('only-js', ['concat:build', 'uglify:minify']);
 };
